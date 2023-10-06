@@ -45,6 +45,26 @@ a:visited{color:#333;}
 
 }
 
+
+#randomBox .randomWrap .randomBall #randomTxt{
+
+   color:#fff;
+
+}
+#randomBox .randomWrap .randomBall.moving{
+
+  width:10px;
+  height:10px;
+  margin:-100px;
+  transition: 2s;
+}
+
+
+#randomBox .randomWrap .randomBall.close{
+
+    display:none;
+}
+
 .webSiteBox{
 
     animation: ball1 1s infinite ease-out;
@@ -107,4 +127,10 @@ a:visited{color:#333;}
      font-size: 22px;
      transition: font-size 0.5s;
 
+}
+
+#randomBox .randomBtn.switchClose{
+
+    height:50px;
+    transition: 0.8s;
 }
